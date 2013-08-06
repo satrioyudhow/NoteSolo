@@ -91,10 +91,10 @@ public class MainActivity extends FragmentActivity {
 		public Fragment getItem(int position) {
 			switch (position) {
 			case NOTE_LIST_FRAGMENT:
-				// return NoteListFragment.newInstance();
+				return NoteListFragment.newInstance();
 
 			case NOTE_FRAGMENT:
-				// return NoteFragment.newInstance();
+				return NoteFragment.newInstance();
 			}
 			return null;
 		}

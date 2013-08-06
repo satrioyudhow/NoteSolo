@@ -19,7 +19,6 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.abhijith.note.events.NewNoteClickedEvent;
 import com.abhijith.note.model.Note;
 import com.abhijith.note.model.dao.NoteDao;
 import com.abhijith.note.util.SwipeDismissListViewTouchListener;

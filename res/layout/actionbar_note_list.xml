@@ -19,7 +19,7 @@
         android:layout_width="56dp"
         android:layout_height="match_parent"
         android:background="@android:color/transparent"
-        android:src="@drawable/action_copy" />
+        android:src="@android:drawable/ic_menu_search" />
 
     <ImageButton
         android:id="@+id/overflow_menu_button"

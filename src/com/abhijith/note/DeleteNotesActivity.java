@@ -12,7 +12,7 @@ public class DeleteNotesActivity extends Activity{
 		setContentView(R.layout.activity_delete_notes);
 		if (savedInstanceState == null) {
 			getFragmentManager().beginTransaction()
-					.add(R.id.container, new DeleteNotesFragment2()).commit();
+					.add(R.id.container, new DeleteNotesFragment()).commit();
 		}
 		
 	}
