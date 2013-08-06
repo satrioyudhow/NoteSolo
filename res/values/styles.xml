@@ -1,0 +1,68 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light.NoActionBar" />
+
+    <style name="Item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">300dp</item>
+    </style>
+
+    <style name="Item.Sticky">
+        <item name="android:background">@drawable/search_bg_shadow</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:paddingBottom">20dp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textColor">@color/sticky_button</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Item.Logo">
+        <item name="android:src">@drawable/logo</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">225dp</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:layout_marginTop">17dp</item>
+        <item name="android:layout_gravity">center|top</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <style name="ScrollView">
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <style name="Note">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:inputType">textMultiLine</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">top|left</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:hint">@string/lets_roll</item>
+    </style>
+
+    <style name="PullToSave">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textColor">@color/text_grey</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="EmptyButton">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <!--
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" />
+ 
+    <include
+        android:id="@+id/action_button_left"
+        layout="@layout/merge_top_action_left" />
+
+    <include
+        android:id="@+id/action_button_right"
+        layout="@layout/merge_top_action_right" />
+    -->
+
+</FrameLayout>

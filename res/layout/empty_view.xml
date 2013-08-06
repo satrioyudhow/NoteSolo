@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/new_note"
+        style="@style/EmptyButton"
+        android:layout_width="@dimen/empty_button_width"
+        android:layout_height="@dimen/empty_button_height"
+        android:layout_gravity="center"
+        android:background="@drawable/empty_note_list_button"
+        android:gravity="center"
+        android:text="@string/add_note"
+        android:textColor="@color/empty_note_list_button_text" />
+
+</LinearLayout>

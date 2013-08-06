@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.abhijith.note.widget.VelocityListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="12dp"
+        android:listSelector="@android:color/transparent" />
+    
+    <Button
+        android:id="@+id/sticky"
+        style="@style/Item.Sticky"
+        android:layout_gravity="top"
+        android:text="@string/search"
+        android:translationY="-70dp" />
+
+    <ViewStub
+        android:id="@android:id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout="@layout/empty_view" />
+
+</FrameLayout>

@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:divider="?android:attr/dividerVertical"
+    android:dividerPadding="5dp"
+    android:orientation="horizontal"
+    android:showDividers="middle" >
+
+    <include layout="@layout/actionbar_undo_button" />
+
+    <include
+        android:layout_weight="1"
+        layout="@layout/actionbar_discard_button" />
+
+    <include
+        android:layout_weight="1"
+        layout="@layout/actionbar_done_button" />
+
+</LinearLayout>

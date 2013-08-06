@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include layout="@layout/actionbar_note_list" />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="7dp"
+        android:layout_marginTop="7dp"
+        android:listSelector="@android:color/transparent" />
+
+    <Button
+        android:id="@android:id/empty"
+        style="@style/EmptyButton"
+        android:layout_width="@dimen/empty_button_width"
+        android:layout_height="@dimen/empty_button_height"
+        android:layout_gravity="center"
+        android:background="@drawable/empty_note_list_button"
+        android:gravity="center"
+        android:text="@string/add_note"
+        android:textColor="@color/empty_note_list_button_text" />
+
+</LinearLayout>

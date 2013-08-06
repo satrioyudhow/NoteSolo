@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:descendantFocusability="beforeDescendants"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/header_background"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_height"
+        android:background="@drawable/header_background" />
+    
+    <ImageButton 
+        android:id="@+id/menu_button"
+        android:layout_width="48dp"
+        android:layout_gravity="right"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_action_overflow"
+        android:layout_marginTop="20dp"
+        android:layout_height="48dp"/>
+
+    <Button
+        android:id="@+id/sticky"
+        style="@style/Item.Sticky"
+        android:layout_gravity="bottom"
+        android:text="@string/search" />
+
+    <ImageView style="@style/Item.Logo" />
+
+</FrameLayout>
