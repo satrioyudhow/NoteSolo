@@ -11,6 +11,7 @@ A base project for Experimenting:
 4. Design patterns.
 
 TODO:
+
 1. Delete/Undo Notes
 2. Dropbox/Box/Drive support for Sync
 3. More refinements?
