@@ -1,7 +1,7 @@
 NoteSolo
 ========
 
-A Note taking application for Android.
+A Note taking application for Android 4.2>.
 
 A base project for Experimenting:
 
